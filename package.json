@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
+  "types": "./dist",
+  "files": [
+    "./dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -38,6 +42,7 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "babel-loader": "^8.2.5",
+    "tsup": "^6.1.2",
     "typescript": "^4.7.4"
   }
 }
