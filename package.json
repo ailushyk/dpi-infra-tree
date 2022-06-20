@@ -2,14 +2,11 @@
   "name": "dpi-infra-tree",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
-  "types": "./dist",
-  "files": [
-    "./dist"
-  ],
+  "main": "lib/index.js",
+  "types": "./lib",
   "scripts": {
     "start": "npm run storybook",
-    "build": " tsup src/index.ts --dts",
+    "build": " tsup src/index.ts --dts --outDir ./lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
