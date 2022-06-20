@@ -2,7 +2,7 @@
   "name": "dpi-infra-tree",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "types": "./lib",
   "scripts": {
     "start": "npm run storybook",
